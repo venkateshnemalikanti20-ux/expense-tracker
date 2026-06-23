@@ -1,5 +1,5 @@
 if(localStorage.getItem("loggedIn") !== "true"){
-	window.location.href="login.html"
+	window.location.href="index.html"
 }
 
 let list = document.getElementById("list")
@@ -67,5 +67,5 @@ function addList(){
 }
 function logout(){
 	localStorage.removeItem("loggedIn")
-	window.location.href="login.html"
+	window.location.href="index.html"
 }
